@@ -1,0 +1,24 @@
+{
+    "name": "attitude/Elements/SerializerJSON",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/attitude/elements"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/attitude/elements-serializer"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/attitude/elements-singleton"
+        }
+    ],
+    "require": {
+        "attitude/Elements": "0.1.*",
+        "attitude/Elements/Serializer": "0.1.*",
+        "attitude/Elements/Singleton": "0.1.*"
+    }
+}
